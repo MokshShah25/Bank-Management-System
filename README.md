@@ -1,5 +1,8 @@
 # 🏦 Python Bank Management System
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://bank-management-system-4flxevvprsp5nnmduzqtxz.streamlit.app/)
+🌐 **Live Demo:** [bank-management-system-4flxevvprsp5nnmduzqtxz.streamlit.app](https://bank-management-system-4flxevvprsp5nnmduzqtxz.streamlit.app/)
+
 A modern, robust, and secure banking management system featuring both an **interactive terminal CLI** and a **full-featured Streamlit web application**. Built with clean Python OOP principles and resilient JSON persistence.
 
 ---
@@ -80,14 +83,18 @@ python -m pip install streamlit
 
 ## 🚀 How to Run
 
-### Option 1: Streamlit Web Application (Recommended)
+### Option 1: Live Cloud Demo (Instant Access)
+Access the live deployment directly in your browser without local setup:
+👉 **[Launch Live Demo on Streamlit](https://bank-management-system-4flxevvprsp5nnmduzqtxz.streamlit.app/)**
+
+### Option 2: Local Streamlit Web Application
 Launch the modern web UI in your default browser:
 ```powershell
 python -m streamlit run app.py
 ```
 > The dashboard will be available at: **http://localhost:8501**
 
-### Option 2: Console Terminal CLI
+### Option 3: Console Terminal CLI
 Run the interactive command-line interface:
 ```powershell
 python bank.py
